@@ -40,6 +40,8 @@ body {
     width: 100%;
 }
 
+/*Main article section*/
+
 .main_art_title{
     background-color: crimson;
     width: 100%;
@@ -75,4 +77,36 @@ body {
     border-image: initial;
     overflow: visible;
     padding: 0px 0px 4px;
+}
+
+.main_article_text{
+    background-color: rgb(187, 187, 90);
+}
+
+/*Aside section (editors_pick)*/
+
+.editors_picks{
+    background-color: rgb(238, 175, 175);
+}
+
+.editors_articles_div{
+    background-color: rgba(163, 50, 72, 0.692);
+}
+
+.editors_article_col{
+    background-color: coral;
+}
+
+.img_pick_col{
+    height: 50px;
+}
+
+.recomended_left{
+    background-color: rgb(80, 77, 83);
+}
+.recomended_left img{
+    height: 100px;
+}
+.recomended_right{
+    background-color: rgba(27, 43, 185, 0.678);
 }
