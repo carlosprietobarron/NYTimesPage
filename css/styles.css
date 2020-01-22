@@ -1,0 +1,78 @@
+body {
+    line-height: 1;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    color: #212121;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*  start header style */
+.css-1fe7a5q{
+    display: inline-block;
+    height: 16px;
+    vertical-align: sub;
+    width: 16px;
+}
+
+.menu-search-container{
+    background-color: aqua;
+    width: 100%;
+    
+}
+.title-left-container{
+    background-color: blue;
+    width: 100%;
+}
+
+.logo-container{
+    display: inline-block;
+    height: 128px;
+    vertical-align: sub;
+    width: 128px;
+    background-color: brown;
+    width: 100%;
+}
+
+.suscribe-login-container{
+    background-color: chartreuse;
+    width: 100%;
+}
+
+.main_art_title{
+    background-color: crimson;
+    width: 100%;
+}
+.main_photo_viewer{
+    background-color: darkblue;
+    width: 100%;
+}
+.figure_caption{
+    background-color: darkgreen;
+}
+
+.css-1d50gvk {
+    align-self: center;
+    background-color: transparent;
+    bottom: 0.05rem;
+    color: rgb(102, 102, 102);
+    cursor: pointer;
+    display: inline-flex;
+    flex-direction: column;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-size: 0.75rem;
+    font-weight: 500;
+    height: 25px;
+    line-height: 1rem;
+    margin-left: 2px;
+    min-width: 24px;
+    position: relative;
+    text-transform: uppercase;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    overflow: visible;
+    padding: 0px 0px 4px;
+}

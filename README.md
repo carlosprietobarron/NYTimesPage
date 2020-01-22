@@ -4,8 +4,10 @@
 
 ## Built With
 
-- HTML,
+- HTML
+- fontawesome
 - CSS
+- Floats and Positioning
 
 ## Live Demo
 
@@ -18,9 +20,10 @@ https://rawcdn.githack.com/xtrmdarc/Embedding-Images-and-Video---Carlos-Diego/5e
 
 - Github: [@carlosprietobarron](https://github.com/carlosprietobarron)
 
-👤 Ruben Paz
+👤 **Ruben Paz Chuspe**
 
-- Github: [@xtrmdarc](https://)
+- Github: [@rubenpazch](https://github.com/rubenpazch)
+- Linkedin: [rubenpch](https://www.linkedin.com/in/rubenpch/)
 
 ## 🤝 Contributing
 
