@@ -6,6 +6,7 @@ body {
     padding: 0;
 }
 
+
 /* Start General configurations*/
 
 .flot-left {
@@ -16,6 +17,7 @@ body {
     float: right;
 }
 
+
 /* Start General configurations*/
 
 .contenido {
@@ -24,6 +26,7 @@ body {
     background-color: magenta;
     margin: auto;
 }
+
 
 /* Start navigation bar */
 
@@ -118,12 +121,13 @@ body {
     width: 16px;
 }
 
+
 /* End navigation bar */
+
 
 /*Main article section*/
 
 .main_article_container {
-    
     display: block;
     width: auto;
     clear: both;
@@ -170,20 +174,19 @@ body {
     line-height: 1.25rem;
 }
 
-.article-container{
+.article-container {
     max-width: 600px;
     width: 600px;
     margin: auto;
 }
 
 .article_information {
-    background-color: cadetblue;
     width: 100%;
     margin: auto;
 }
 
 .article_center_align {
-    width: 600px;    
+    width: 600px;
     max-width: 600px;
     display: flex;
     flex-direction: row;
@@ -192,23 +195,24 @@ body {
 }
 
 .author {
-    
     padding: 80px 0 15px 0;
     width: 100%;
     text-align: left;
 }
-.date-article{
+
+.date-article {
     float: left;
 }
+
 .contact-icons-right {
     float: right;
 }
 
-.contact-icons-right a{
+.contact-icons-right a {
     padding: 5px;
 }
 
-.css-4brsb6 {
+.icons_sharing {
     display: inline-block;
     height: 15px;
     vertical-align: middle;
@@ -219,14 +223,65 @@ body {
     padding: 5px;
     width: 15px;
     height: 15px;
+    cursor: pointer;
 }
 
-.css-4brsb6:hover {
+.icons_sharing:hover {
     background-color: #fff;
     border: 1px solid #ccc;
 }
 
-.css-1d50gvk {
+.icons_saving_article {
+    height: 30px;
+    vertical-align: middle;
+    width: 15px;
+    cursor: pointer;
+}
+
+.icons_counter_article {
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    min-width: 26px;
+    min-height: 14px;
+    position: relative;
+    width: auto;
+    background: transparent;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(102, 102, 102);
+    border-image: initial;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+.icons_counter_article:after {
+    bottom: -6px;
+    content: "";
+    display: block;
+    left: 16px;
+    position: absolute;
+    width: 0px;
+    border-color: rgb(255, 255, 255) transparent;
+    border-style: solid;
+    border-width: 6px 0px 0px 6px;
+}
+
+.icons_counter_article:before {
+    bottom: -7px;
+    content: "";
+    display: block;
+    left: 15px;
+    position: absolute;
+    width: 0px;
+    border-color: rgb(102, 102, 102) transparent;
+    border-style: solid;
+    border-width: 6px 0px 0px 8px;
+}
+
+.button_counter_coments {
     align-self: center;
     background-color: transparent;
     bottom: 0.05rem;
@@ -251,35 +306,43 @@ body {
     padding: 0px 0px 4px;
 }
 
-.css-1d50gvk {
-    align-self: center;
-    background-color: transparent;
-    bottom: 0.05rem;
-    color: rgb(102, 102, 102);
-    cursor: pointer;
-    display: inline-flex;
-    flex-direction: column;
-    font-family: nyt-franklin, helvetica, arial, sans-serif;
-    font-size: 0.75rem;
-    font-weight: 500;
-    height: 25px;
-    line-height: 1rem;
-    margin-left: 2px;
-    min-width: 24px;
-    position: relative;
-    text-transform: uppercase;
-    border-width: initial;
-    border-style: none;
-    border-color: initial;
+button {
+    -webkit-appearance: button;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    background-color: buttonface;
+    box-sizing: border-box;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonface;
     border-image: initial;
-    overflow: visible;
-    padding: 0px 0px 4px;
 }
 
 .main_article_text {
-    background-color: rgb(187, 187, 90);
+    padding-top: 50px;
     clear: both;
 }
+
+.main_article_text p {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+    padding-bottom: 10px;
+}
+
 
 /*Aside section (editors_pick)*/
 
