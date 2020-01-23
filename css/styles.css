@@ -108,17 +108,51 @@ body {
 
 /*Main article section*/
 
+.main_article_container{
+    background-color: blue;
+    display: block;
+    width: auto;
+    clear: both;
+    width: 80%;
+    float: left;
+}
 .main_art_title{
+    width: 40%;
     background-color: green;
-    width: 100%;
+    text-align: center;
+    margin: auto;
 }
 .main_photo_viewer{
     background-color: darkblue;
     width: 100%;
+    float: left;
+    text-align: center;
 }
+
 .figure_caption{
     background-color: darkgreen;
+    width: 55%;
+    text-align: justify;
+    margin: auto;
 }
+
+.article_header{
+    background-color: cadetblue;
+    width: 55%;
+    margin: auto;
+}
+
+.article_info{
+   float: left;
+}
+
+.author{   
+    background-color: blueviolet;
+}
+.contact-icons-right{
+    float: right;
+}
+
 
 .css-1d50gvk {
     align-self: center;
@@ -147,6 +181,7 @@ body {
 
 .main_article_text{
     background-color: rgb(187, 187, 90);
+    clear: both;
 }
 
 /*Aside section (editors_pick)*/
