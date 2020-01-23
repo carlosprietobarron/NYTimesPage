@@ -185,6 +185,10 @@ body {
 .article_center_align {
     width: 600px;    
     max-width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .author {
@@ -193,9 +197,58 @@ body {
     width: 100%;
     text-align: left;
 }
-
+.date-article{
+    float: left;
+}
 .contact-icons-right {
     float: right;
+}
+
+.contact-icons-right a{
+    padding: 5px;
+}
+
+.css-4brsb6 {
+    display: inline-block;
+    height: 15px;
+    vertical-align: middle;
+    width: 15px;
+    background-color: #eee;
+    border: 1px #eee solid;
+    border-radius: 100%;
+    padding: 5px;
+    width: 15px;
+    height: 15px;
+}
+
+.css-4brsb6:hover {
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.css-1d50gvk {
+    align-self: center;
+    background-color: transparent;
+    bottom: 0.05rem;
+    color: rgb(102, 102, 102);
+    cursor: pointer;
+    display: inline-flex;
+    flex-direction: column;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-size: 0.75rem;
+    font-weight: 500;
+    height: 25px;
+    line-height: 1rem;
+    margin-left: 2px;
+    min-width: 24px;
+    position: relative;
+    text-transform: uppercase;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    overflow: visible;
+    padding: 0px 0px 4px;
 }
 
 .css-1d50gvk {
