@@ -347,7 +347,7 @@ button {
 /*Aside section (editors_pick)*/
 
 .editors_picks {
-    background-color: rgb(238, 175, 175);
+    background-color: rgba(238, 175, 175, 0.788);
 }
 
 .editors_articles_div {
@@ -372,4 +372,36 @@ button {
 
 .recomended_right {
     background-color: rgba(27, 43, 185, 0.678);
+}
+
+/*Graphic insertion*/
+.graphic_insertion{
+    background-color: #00822b75;
+    max-width:100%;
+    margin:0 auto
+}
+
+#graphic_insertion_show{
+    position:relative;
+    overflow:hidden;
+    width:945px;
+}
+.g-aiAbs{
+    position:absolute;
+}
+.g-aiImg{
+    display:block;
+}
+#g-inflation-945-0 p{
+    font-family:arial,helvetica,sans-serif;
+    font-size:13px;
+    line-height:18px;
+    margin:0;
+}
+#g-inflation-945-0 .g-aiPstyle0 {
+    font-family:nyt-franklin,arial,helvetica,sans-serif;
+    font-size:14px;
+    line-height:17px;
+    font-weight:300;
+    color:#000000;
 }
