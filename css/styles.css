@@ -527,3 +527,43 @@ button {
 .create_account_log_in span {
     padding: 0;
 }
+
+/*Thumbs links*/
+#right_thumb_links{
+    width: 70%;
+    float: left;
+}
+.right_subsection_row{
+    max-width: inherit;
+    float: left;
+}
+
+.subsection_title{
+    margin-left: 20px;
+}
+.subsection_title h2{
+    font-size: 24px;
+    font-weight: 600;
+}
+.image_container{
+    max-width: 30%;
+    margin-left: 5px;
+    float: left;
+}
+
+.right_subsection_row img{
+    width: 90%;
+    padding: 5%;
+}
+.thumb_img_caption{
+    margin-left: 23px;
+}
+
+.thumb_caption{
+    font-size: 27px;
+    line-height: 24px;
+}
+#left_text_links{
+    width: 20%;
+    float: right;
+}
