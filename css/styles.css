@@ -180,6 +180,14 @@ body {
     margin: auto;
 }
 
+.article-container aside {
+    width: 210px;
+    max-width: 210px;
+    position: relative;
+    left: 690px;
+    top: -1300px;
+}
+
 .article_information {
     width: 100%;
     margin: auto;
@@ -374,63 +382,148 @@ button {
     background-color: rgba(27, 43, 185, 0.678);
 }
 
+
 /*Graphic insertion*/
-.graphic_insertion{
-    background-color: #00822b75;
-    max-width:80%;
-    margin:0 auto
+
+.planets_post_container {
+    max-width: 100%;
+    width: 950px;
+    margin: auto;
+    padding: 30px 0 0 0;
 }
 
-.graphic_insertion h1{
-    display:inline-block;
+.planets_post_container h1 {
+    display: inline-block;
     margin-bottom: 15px;
-    font-weight: 200;
     font-size: larger;
+    line-height: 1.5rem;
+    font-weight: 700;
+    font-style: normal;
+    font-family: nyt-cheltenham, georgia, times new roman, times, serif;
 }
 
-.inserted_item{
+.graphic_insertion_intro {
+    font-size: .875rem;
+    line-height: 1.125rem;
+    font-weight: 400;
+    font-style: normal;
+    font-family: nyt-cheltenham-sh, georgia, times new roman, times, serif;
+    color: #666;
+    margin-bottom: 0;
+}
+
+.graphic_insertion_show_container img {
+    width: 100%;
+    height: auto;
+}
+
+.inserted_item {
     display: block;
     float: left;
-    width: 20%;
-    padding: 1%;
+    width: 230px;
+    padding: 25px 0 0 7px;
 }
-.imaged{
-    width: 165px;
-    height: 99px;
+
+.txt_imaged span {
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: .05em;
 }
-.txt_imaged{
-    font-size: smaller;
+
+.txt_imaged p {
+    font-family: nyt-franklin, arial, helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 300;
+    color: #000000;
 }
-#graphic_insertion_show{
-    overflow:hidden;
+
+#graphic_insertion_show_first {
+    overflow: hidden;
     width: 100%;
+    margin: auto;
+    position: relative;
+    top: -450px;
+}
+
+#graphic_insertion_show_second {
+    overflow: hidden;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    top: -315px;
+}
+
+.graphic_insertion_footer {
+    width: 100%;
+    margin: -270px 0 0 0;
+    position: absolute;
+}
+
+.graphic_insertion_footer hr {
+    width: 5%;
+    margin: 0 0 12px 0;
+}
+
+.graphic_insertion_footer p {
+    font-size: .875rem;
+    line-height: 1.125rem;
+    font-weight: 500;
+    font-style: normal;
+    font-family: nyt-franklin, arial, helvetica, sans-serif;
+    float: left;
+}
+
+.g-aiAbs {
+    position: absolute;
+}
+
+.g-aiImg {
+    display: block;
+}
+
+#g-inflation-945-0 p {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 0;
+}
+
+#g-inflation-945-0 .g-aiPstyle0 {
+    font-family: nyt-franklin, arial, helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 300;
+    color: #000000;
+}
+
+.create_account_log_in {
+    width: 200px;
     margin: auto;
 }
 
-.line{
-    width: 358px;
-    height: 47px;
-    border-bottom: 1px solid black;
-    margin-bottom: 20px;
-    /* position: absolute; */
-    }
+.create_account_log_in hr {
+    width: 50px;
+    margin: auto;
+}
 
-.g-aiAbs{
-    position:absolute;
+.create_account_log_in p {
+    text-size-adjust: 100%;
+    vertical-align: baseline;
+    font-family: nyt-franklin;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    margin: 0 0 0 0;
+    padding: 10px 0 0 0;
 }
-.g-aiImg{
-    display:block;
+
+.create_account_log_in a {
+    text-decoration: none;
+    color: rgb(50, 104, 145);
 }
-#g-inflation-945-0 p{
-    font-family:arial,helvetica,sans-serif;
-    font-size:13px;
-    line-height:18px;
-    margin:0;
-}
-#g-inflation-945-0 .g-aiPstyle0 {
-    font-family:nyt-franklin,arial,helvetica,sans-serif;
-    font-size:14px;
-    line-height:17px;
-    font-weight:300;
-    color:#000000;
+
+.create_account_log_in span {
+    padding: 0;
 }
