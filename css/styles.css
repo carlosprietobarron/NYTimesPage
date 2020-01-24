@@ -530,15 +530,18 @@ button {
 
 
 /*Thumbs links*/
-
+.more_articles_links{
+    display: block;
+    margin-bottom: 200px;
+}
 #right_thumb_links {
     width: 70%;
-    float: left;
+    float: right;
 }
 
 .right_subsection_row {
     max-width: inherit;
-    float: left;
+    float: right;
 }
 
 .subsection_title {
@@ -571,10 +574,24 @@ button {
 }
 
 #left_text_links {
-    width: 20%;
+    width: 30%;
     float: right;
 }
 
+.left_art_link_list h3{
+    font-size: 24px;
+    font-weight: 500;
+    border-bottom: 1px solid rgb(226, 226, 226);
+    padding: 15px 0px;
+}
+
+.left_art_link_list a{
+    color:rgb(18, 18, 18);
+    font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.375rem;
+}
 
 /* start footer style */
 
