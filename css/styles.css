@@ -377,15 +377,44 @@ button {
 /*Graphic insertion*/
 .graphic_insertion{
     background-color: #00822b75;
-    max-width:100%;
+    max-width:80%;
     margin:0 auto
 }
 
-#graphic_insertion_show{
-    position:relative;
-    overflow:hidden;
-    width:945px;
+.graphic_insertion h1{
+    display:inline-block;
+    margin-bottom: 15px;
+    font-weight: 200;
+    font-size: larger;
 }
+
+.inserted_item{
+    display: block;
+    float: left;
+    width: 20%;
+    padding: 1%;
+}
+.imaged{
+    width: 165px;
+    height: 99px;
+}
+.txt_imaged{
+    font-size: smaller;
+}
+#graphic_insertion_show{
+    overflow:hidden;
+    width: 100%;
+    margin: auto;
+}
+
+.line{
+    width: 358px;
+    height: 47px;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    /* position: absolute; */
+    }
+
 .g-aiAbs{
     position:absolute;
 }
