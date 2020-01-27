@@ -66,7 +66,7 @@ button {
 }
 
 .menu-search-container {
-  width: 5%;
+  width: 7%;
   height: 45px;
   display: flex;
   flex-flow: row;
@@ -97,6 +97,10 @@ button {
 .logo-container {
   width: 69%;
   height: 45px;
+}
+
+.logo-container svg{
+  width: 159px;
 }
 
 .logo {
@@ -786,7 +790,7 @@ footer {
 
 @media only screen and (max-width: 1400px) {
   .logo-container {
-    width: 65%;
+    width: 63%;
   }
 
   .suscribe-login-container {
