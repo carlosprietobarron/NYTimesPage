@@ -6,7 +6,6 @@ body {
   padding: 0;
 }
 
-
 /* Start General configurations */
 
 .flot-left {
@@ -78,7 +77,7 @@ body {
   color: black;
 }
 
-.logo-container {  
+.logo-container {
   width: 69%;
   height: 45px;
 }
@@ -329,7 +328,7 @@ button {
   cursor: default;
   background-color: buttonface;
   box-sizing: border-box;
-  margin: 0em;
+  margin: 0;
   font: 400 13.3333px Arial;
   padding: 1px 6px;
   border-width: 2px;
@@ -669,7 +668,7 @@ button {
   font-size: 1.125rem;
   font-weight: 500;
   border-bottom: 1px solid rgb(226, 226, 226);
-  padding: 15px 0px;
+  padding: 15px 0;
 }
 
 .subsection_title_left h2 {
@@ -811,10 +810,15 @@ footer {
 /* end footer style */
 
 @media only screen and (max-width: 1400px) {
+	
   .logo-container {
     width: 65%;
   }
+  
   .suscribe-login-container {
     width: 18%;
   }
+  
 }
+
+/* end of css style */
