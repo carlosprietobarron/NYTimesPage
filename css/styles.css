@@ -25,7 +25,6 @@ body {
   margin: auto;
 }
 
-
 /* Start navigation bar */
 
 .page_header {
@@ -118,7 +117,6 @@ body {
 }
 
 /* End navigation bar */
-
 
 /* Main article section */
 
@@ -417,7 +415,7 @@ button {
 }
 
 .graphic_insertion_intro {
-  font-size: .875rem;
+  font-size: 0.875rem;
   line-height: 1.125rem;
   font-weight: 400;
   font-style: normal;
@@ -809,7 +807,8 @@ footer {
 @media only screen and (max-width: 1400px) {
   .logo-container {
     width: 65%;
-  }  
+  }
+  
   .suscribe-login-container {
     width: 18%;
   }
