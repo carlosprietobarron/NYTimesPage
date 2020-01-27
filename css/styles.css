@@ -185,7 +185,10 @@ body {
     max-width: 210px;
     position: relative;
     left: 690px;
-    top: -1300px;
+    top: -1350px;
+    z-index: -1;
+
+
 }
 
 .article_information {
@@ -354,18 +357,51 @@ button {
 
 /*Aside section (editors_pick)*/
 
-.editors_picks {
-    background-color: rgba(238, 175, 175, 0.788);
+.aside_related_picks {    
+    height: 250px;
 }
 
-.editors_articles_div {
-    background-color: rgba(163, 50, 72, 0.692);
+.section_related_picks_title h2{
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgb(226, 226, 226);
 }
 
-.editors_article_col {
-    background-color: coral;
+.related_aritcles_list {    
+    width: 100%;
+    height: 76px;
+    margin: 0 0 15px 0;
+}
+.related_aritcles_list_thumbnail{    
+    height: 100%;
+    width: 76px;
+}
+.related_aritcles_list_thumbnail img{
+    width: 75px;
+    height: 75px;
+}
+.related_aritcles_list_content {
+    height: 100%;
+    width: 134px;
+    padding-top: 14px; 
+}
+.related_aritcles_list_content p{
+    font-family: nyt-cheltenham-small, georgia, "times new roman";
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 500;
+    padding-bottom: 0px;
+    margin: auto 0px auto 10px;
 }
 
+/*
 .img_pick_col {
     height: 50px;
 }
@@ -380,7 +416,7 @@ button {
 
 .recomended_right {
     background-color: rgba(27, 43, 185, 0.678);
-}
+}*/
 
 
 /*Graphic insertion*/
@@ -674,3 +710,14 @@ footer {
 
 
 /* end footer style */
+
+
+
+@media only screen and (max-width: 1400px) {
+    .logo-container{
+        width: 65%;
+    }
+    .suscribe-login-container{
+        width: 18%;
+    }
+}
