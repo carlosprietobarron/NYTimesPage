@@ -7,7 +7,7 @@ body {
 }
 
 
-/* Start General configurations*/
+/* Start General configurations */
 
 .flot-left {
   float: left;
@@ -18,7 +18,7 @@ body {
 }
 
 
-/* Start General configurations*/
+/* Start General configurations */
 
 .contenido {
   width: 80%;
@@ -78,9 +78,7 @@ body {
   color: black;
 }
 
-.logo-container {
-  /*display: inline-block;  
-  vertical-align: sub;  */
+.logo-container {  
   width: 69%;
   height: 45px;
 }
@@ -125,7 +123,7 @@ body {
 /* End navigation bar */
 
 
-/*Main article section*/
+/* Main article section */
 
 .main_article_container {
   display: block;
@@ -353,7 +351,7 @@ button {
 }
 
 
-/*Aside section (editors_pick)*/
+/* Aside section (editors_pick) */
 
 .aside_related_picks {
   height: 250px;
@@ -403,26 +401,7 @@ button {
   margin: auto 0px auto 10px;
 }
 
-
-/*
-.img_pick_col {
-  height: 50px;
-}
-
-.recomended_left {
-  background-color: rgb(80, 77, 83);
-}
-
-.recomended_left img {
-  height: 100px;
-}
-
-.recomended_right {
-  background-color: rgba(27, 43, 185, 0.678);
-}*/
-
-
-/*Graphic insertion*/
+/* Graphic insertion */
 
 .planets_post_container {
   max-width: 100%;
@@ -567,8 +546,7 @@ button {
   padding: 0;
 }
 
-
-/*Video Section*/
+/* Video Section */
 
 .video_wrapper {
   display: block;
@@ -593,8 +571,7 @@ button {
   font-size: x-small;
 }
 
-
-/*photo_show small*/
+/* photo_show small */
 
 .div_quote {
   display: block;
@@ -627,8 +604,7 @@ button {
   line-height: 1.25rem;
 }
 
-
-/*Thumbs links*/
+/* Thumbs links */
 
 .more_articles_links {
   display: inline-block;
@@ -831,13 +807,6 @@ footer {
   padding: 0 10px;
   color: #666;
 }
-
-
-/*
-.access-more-expand{
-  
-}*/
-
 
 /* end footer style */
 
