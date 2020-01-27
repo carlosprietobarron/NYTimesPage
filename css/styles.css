@@ -729,6 +729,12 @@ footer {
   float: left;
 }
 
+.footer_list_menu li {
+  list-style: none;
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
 .footer-list-info-site ul li {
   list-style: none;
   display: inline-block;
@@ -746,12 +752,6 @@ footer {
 .footer_list_menu {
   width: 198px;
   float: left;
-}
-
-.footer_list_menu li {
-  list-style: none;
-  display: list-item;
-  text-align: -webkit-match-parent;
 }
 
 .footer_list_menu li a {
