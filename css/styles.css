@@ -121,7 +121,7 @@ body {
 /* Main article section */
 
 .main_article_container {
-  display: block;  
+  display: block;
   clear: both;
   width: 80%;
   margin: auto;
@@ -221,7 +221,7 @@ body {
   background-color: #eee;
   border: 1px #eee solid;
   border-radius: 100%;
-  padding: 5px;  
+  padding: 5px;
   cursor: pointer;
 }
 
@@ -321,7 +321,7 @@ button {
   cursor: default;
   background-color: buttonface;
   box-sizing: border-box;
-  margin: 0;  
+  margin: 0;
   padding: 1px 6px;
   border-width: 2px;
   border-style: outset;
@@ -382,8 +382,8 @@ button {
   padding-top: 14px;
 }
 
-.related_aritcles_list_content p {
-  font-family: nyt-cheltenham-small, georgia, "times new roman";
+.related_aritcles_list_content p {  
+  font-family: 'nyt-cheltenham-small', 'georgia', sans-serif;
   font-size: 14px;
   line-height: 17px;
   font-weight: 500;
@@ -789,7 +789,7 @@ footer {
   float: left;
 }
 
-.footer-list-info-site ul li {  
+.footer-list-info-site ul li {
   list-style: none;
   display: inline-block;
   line-height: 20px;
