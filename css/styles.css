@@ -827,7 +827,7 @@ footer {
   width: calc(100% - 40px);
   max-width: 600px;
   color: rgb(102, 102, 102);
-  margin: 0px auto 1em;
+  margin: 0 auto 1em;
 }
 
 /* end footer style */
