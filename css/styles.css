@@ -16,7 +16,6 @@ body {
   float: right;
 }
 
-
 /* Start General configurations */
 
 .contenido {
@@ -117,7 +116,6 @@ body {
   vertical-align: sub;
   width: 16px;
 }
-
 
 /* End navigation bar */
 
@@ -349,7 +347,6 @@ button {
   padding-bottom: 10px;
 }
 
-
 /* Aside section (editors_pick) */
 
 .aside_related_picks {
@@ -452,7 +449,7 @@ button {
   font-size: 14px;
   line-height: 17px;
   font-weight: 300;
-  color: #000000;
+  color: #000;
 }
 
 #graphic_insertion_show_first {
@@ -511,7 +508,7 @@ button {
   font-size: 14px;
   line-height: 17px;
   font-weight: 300;
-  color: #000000;
+  color: #000;
 }
 
 .create_account_log_in {
@@ -810,15 +807,12 @@ footer {
 /* end footer style */
 
 @media only screen and (max-width: 1400px) {
-	
   .logo-container {
     width: 65%;
-  }
-  
+  }  
   .suscribe-login-container {
     width: 18%;
   }
-  
 }
 
 /* end of css style */
