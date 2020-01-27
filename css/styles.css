@@ -270,10 +270,10 @@ body {
   display: block;
   left: 16px;
   position: absolute;
-  width: 0px;
+  width: 0;
   border-color: rgb(255, 255, 255) transparent;
   border-style: solid;
-  border-width: 6px 0px 0px 6px;
+  border-width: 6px 0 0 6px;
 }
 
 .icons_counter_article:before {
@@ -282,10 +282,10 @@ body {
   display: block;
   left: 15px;
   position: absolute;
-  width: 0px;
+  width: 0;
   border-color: rgb(102, 102, 102) transparent;
   border-style: solid;
-  border-width: 6px 0px 0px 8px;
+  border-width: 6px 0 0 8px;
 }
 
 .button_counter_coments {
@@ -310,7 +310,7 @@ body {
   border-color: initial;
   border-image: initial;
   overflow: visible;
-  padding: 0px 0px 4px;
+  padding: 0 0 4px;
 }
 
 button {
@@ -321,7 +321,7 @@ button {
   letter-spacing: normal;
   word-spacing: normal;
   text-transform: none;
-  text-indent: 0px;
+  text-indent: 0;
   text-shadow: none;
   display: inline-block;
   text-align: center;
@@ -364,7 +364,7 @@ button {
   font-size: 14px;
   line-height: 14px;
   letter-spacing: 0.02em;
-  margin-top: 0px;
+  margin-top: 0;
   margin-bottom: 15px;
   padding-bottom: 12px;
   border-bottom: 1px solid rgb(226, 226, 226);
@@ -397,8 +397,8 @@ button {
   font-size: 14px;
   line-height: 17px;
   font-weight: 500;
-  padding-bottom: 0px;
-  margin: auto 0px auto 10px;
+  padding-bottom: 0;
+  margin: auto 0 auto 10px;
 }
 
 /* Graphic insertion */
@@ -767,7 +767,7 @@ footer {
   font-size: 14px;
   font-weight: 500;
   height: 23px;
-  line-height: 16px
+  line-height: 16px;
 }
 
 .footer_list_menu h3 {
