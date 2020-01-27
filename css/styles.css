@@ -70,11 +70,6 @@ body {
   color: black;
 }
 
-.title-left-container a:hover {
-  text-decoration: underline;
-  color: black;
-}
-
 .logo-container {
   width: 69%;
   height: 45px;
@@ -795,6 +790,11 @@ footer {
   line-height: 20px;
   padding: 0 10px;
   color: #666;
+}
+
+.title-left-container a:hover {
+  text-decoration: underline;
+  color: black;
 }
 
 /* end footer style */
