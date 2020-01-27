@@ -407,7 +407,7 @@ button {
   line-height: 1.5rem;
   font-weight: 700;
   font-style: normal;
-  font-family: nyt-cheltenham, georgia, times new roman, times, serif;
+  font-family: 'nyt-cheltenham', 'georgia', sans-serif;
 }
 
 .graphic_insertion_intro {
@@ -518,7 +518,7 @@ button {
 .create_account_log_in p {
   text-size-adjust: 100%;
   vertical-align: baseline;
-  font-family: nyt-franklin;
+  font-family: 'nyt-franklin', 'georgia', sans-serif;
   font-weight: 700;
   font-size: 15px;
   line-height: 19px;
@@ -720,7 +720,7 @@ footer {
 
 .return-homepage p {
   color: #567b95;
-  font-family: nyt-franklin;
+  font-family: 'nyt-franklin', 'georgia', sans-serif; 
   font-size: 11px;
   font-style: normal;
   font-weight: 400;
@@ -750,7 +750,7 @@ footer {
 .footer_list_menu li a {
   color: #000;
   display: inline-block;
-  font-family: nyt-franklin;
+  font-family: 'nyt-franklin', 'georgia', sans-serif;
   text-decoration: none;
   text-transform: capitalize;
   width: 150px;
@@ -764,7 +764,7 @@ footer {
   color: #333;
   font-size: 13px;
   font-weight: 700;
-  font-family: nyt-franklin;
+  font-family: 'nyt-franklin', 'georgia', sans-serif;
   height: 25px;
   line-height: 15px;
   text-transform: uppercase;
