@@ -1,6 +1,6 @@
 # New York Times Article Page Clone
 
-> This is the project for positioning subject
+> This is the project for positioning and cloning a new york times article site-
 
 ## Built With
 
@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-https://rawcdn.githack.com/xtrmdarc/Embedding-Images-and-Video---Carlos-Diego/5ebb8a942bee8e85e3d0a68990a65567ab66d0b9/index.html
+https://carlosprietobarron.github.io/NYTimesPage/
 
 
 ## Authors
