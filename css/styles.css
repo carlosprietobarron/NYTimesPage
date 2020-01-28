@@ -453,6 +453,7 @@ button {
     position: relative;
     left: 200px;
     top: -380px;
+    margin: 0 0 -610px 0;
 }
 
 .planets_post_container h1 {
