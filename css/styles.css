@@ -180,6 +180,20 @@ button {
     margin: auto;
 }
 
+.main_section h1 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    color: #121212;
+    font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
+    font-weight: 700;
+    font-style: italic;
+    padding: 20px 0 20px 0;
+    max-width: 383.777px;
+    margin: auto;
+}
+
+
+/*
 .main_art_title {
     width: 40%;
     text-align: center;
@@ -196,7 +210,7 @@ button {
     padding: 20px 0 20px 0;
     max-width: 383.777px;
     margin: auto;
-}
+}*/
 
 .main_photo_viewer {
     width: 100%;
@@ -436,8 +450,9 @@ button {
 .planets_post_container {
     max-width: 100%;
     width: 950px;
-    margin: auto;
-    padding: 30px 0 0 0;
+    position: relative;
+    left: 200px;
+    top: -380px;
 }
 
 .planets_post_container h1 {
@@ -448,6 +463,7 @@ button {
     font-weight: 700;
     font-style: normal;
     font-family: 'nyt-cheltenham', 'georgia', sans-serif;
+    width: 100%;
 }
 
 .graphic_insertion_intro {
@@ -625,45 +641,28 @@ button {
 /* Thumbs links */
 
 .more_articles_links {
-    display: inline-block;
-    margin-bottom: 200px;
-}
-
-#right_thumb_links {
-    width: 70%;
-    float: right;
+    width: 100%;
+    margin: auto;
+    height: 600px;
+    max-width: 1200px;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-top: 80px;
+    padding-top: 20px;
 }
 
 .right_subsection {
     display: inline-block;
-    float: left;
-    margin-right: 15px;
-    padding-right: 2px;
-}
-
-.right_subsection_row {
-    float: right;
-}
-
-.subsection_title {
-    margin-left: 98px;
-}
-
-.subsection_title h2 {
-    display: inline-block;
-    font-size: 20px;
-    font-weight: 600;
 }
 
 .image_container {
-    max-width: 30%;
-    margin-left: 5px;
-    float: right;
+    max-width: 32%;
+    padding: 4px 0 0 11px;
+    float: left;
 }
 
-.right_subsection_row img {
-    width: 90%;
-    padding: 5%;
+.image_container img {
+    width: 98%;
 }
 
 .thumb_img_caption {
@@ -678,11 +677,58 @@ button {
     font-size: 10px;
 }
 
-#left_text_links {
+#more-in-space-aditional {
+    width: 80%;
+    float: left;
+    height: 50px;
+    max-width: 852px;
+    background-color: rgb(255, 255, 255);
+}
+
+.more-in-space-aditional-title {
+    float: left;
+    max-width: 851.25px;
+    width: 100%;
+}
+
+.more-in-space-aditional-title h2 {
+    background-color: rgb(255, 255, 255);
+    border-top: 1px solid rgb(0, 0, 0);
+    font-size: 1rem;
+    line-height: 1.375rem;
+    padding-right: 0px;
+    padding-left: 0px;
+    font-family: 'nyt-franklin', 'georgia', sans-serif;
+    font-weight: 700;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+#most-popular-aditional {
     width: 26%;
-    float: right;
-    box-sizing: border-box;
-    padding-right: 35px;
+    float: left;
+    height: 50px;
+    max-width: 315px;
+    margin-left: 30px;
+}
+
+.most-popular-aditional-title {
+    float: left;
+    max-width: 315px;
+    width: 100%;
+}
+
+.most-popular-aditional-title h2 {
+    background-color: rgb(255, 255, 255);
+    border-top: 1px solid rgb(0, 0, 0);
+    font-size: 1rem;
+    line-height: 1.375rem;
+    padding-right: 0px;
+    padding-left: 0px;
+    font-family: 'nyt-franklin', 'georgia', sans-serif;
+    font-weight: 700;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 
 .left_art_link_list {
