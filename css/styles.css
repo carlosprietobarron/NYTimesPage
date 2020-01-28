@@ -657,7 +657,7 @@ button {
 
 .image_container {
     max-width: 32%;
-    padding: 4px 0 0 11px;
+    padding: 4px 11px 0 0;
     float: left;
 }
 
@@ -665,24 +665,42 @@ button {
     width: 98%;
 }
 
-.thumb_img_caption {
-    margin-left: 9px;
+.thumb_img_caption h3 {
+    font-size: 1.125rem;
+    line-height: 22px;
+    color: rgb(18, 18, 18);
+    font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+    font-weight: 500;
+    padding: 15px 0 0 0;
 }
 
+
+/*
+.thumb_img_caption {
+    margin-left: 9px;
+}*/
+
+
+/*
 .thumb_caption {
     font-size: 14px;
-}
+}*/
 
 .thumb_date {
     font-size: 10px;
+    padding: 0 0 30px 0;
 }
 
-#more-in-space-aditional {
+.more-in-space-aditional {
     width: 80%;
     float: left;
     height: 50px;
     max-width: 852px;
     background-color: rgb(255, 255, 255);
+}
+
+#more-in-space-links-aditional {
+    top: 400px;
 }
 
 .more-in-space-aditional-title {
@@ -762,7 +780,7 @@ button {
     height: auto;
     width: 100%;
     margin: auto;
-    margin-top: -130px;
+    margin-top: 380px;
     max-width: 1200px;
 }
 
