@@ -673,8 +673,8 @@ button {
   border-top: 1px solid rgb(0, 0, 0);
   font-size: 1rem;
   line-height: 1.375rem;
-  padding-right: 0px;
-  padding-left: 0px;
+  padding-right: 0;
+  padding-left: 0;
   font-family: 'nyt-franklin', 'georgia', sans-serif;
   font-weight: 700;
   padding-top: 12px;
@@ -700,8 +700,8 @@ button {
   border-top: 1px solid rgb(0, 0, 0);
   font-size: 1rem;
   line-height: 1.375rem;
-  padding-right: 0px;
-  padding-left: 0px;
+  padding-right: 0;
+  padding-left: 0;
   font-family: 'nyt-franklin', 'georgia', sans-serif;
   font-weight: 700;
   padding-top: 12px;
