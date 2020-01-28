@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-https://carlosprietobarron.github.io/NYTimesPage/
+https://nytimespage.000webhostapp.com/
 
 
 ## Authors
